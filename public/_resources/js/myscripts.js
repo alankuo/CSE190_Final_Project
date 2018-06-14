@@ -556,63 +556,63 @@ $(function() {
 
       function getParameterByName(name, url) {
         if (!url) url = window.location.href;
-	    name = name.replace(/[\[\]]/g, "\\$&");
-	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-	        results = regex.exec(url);
-	    if (!results) return null;
-	    if (!results[2]) return '';
-	    return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
 
   var entryParam = getParameterByName('q');
-	if (entryParam != undefined && entryParam !== '') {
-		// show the search element
-		setSearchValue(entryParam);
-		showSearchElement();
-	}
+  if (entryParam != undefined && entryParam !== '') {
+    // show the search element
+    setSearchValue(entryParam);
+    showSearchElement();
+  }
 
-	function showSearchElement() {
-	   if ($('.search-icon.visible-sm').css('display') == 'block') {
-		   $('.dropdown-menu').css('display', 'block');
-	   } else {
-		   $("#inputSearch").removeClass("hidden").animate({
-	       opacity: 1,
-	       width: 300,
-		   }, 300);
+  function showSearchElement() {
+     if ($('.search-icon.visible-sm').css('display') == 'block') {
+       $('.dropdown-menu').css('display', 'block');
+     } else {
+       $("#inputSearch").removeClass("hidden").animate({
+         opacity: 1,
+         width: 300,
+       }, 300);
 
-		   $(".input-search").removeClass("hidden").animate({
-		       opacity: 1,
-		       width: 300,
-		   }, 300);
-	   }
-
-
-	   $(".navbar-search .radio-inline").removeClass("hidden").animate({
-	       opacity: 1,
-	   }, 300);
-	}
-
-	function setSearchValue(searchString) {
-		$('input[data-id="inputSearch"]').val(searchString);
-		$('input[data-id="inputSearchMobile"]').val(searchString);
-	}
+       $(".input-search").removeClass("hidden").animate({
+           opacity: 1,
+           width: 300,
+       }, 300);
+     }
 
 
-      	function setSearch(searchType) {
-      		if (searchType == 'web') {
-      			$('.search-form').attr('action', '/search/index.html');
-      			$('.mobile-search-form').attr('action', '/search/index.html');
-      			$('input[data-id="inputSearch"]').attr('id', 'q').attr('name', 'search-term');
-      			$('input[data-id="inputSearchMobile"]').attr('id', 'q').attr('name', 'search-term');
+     $(".navbar-search .radio-inline").removeClass("hidden").animate({
+         opacity: 1,
+     }, 300);
+  }
 
-      		} else if (searchType == 'directory') {
-      			$('.search-form').attr('action', 'https://act.ucsd.edu/directory/search');
-      			$('.mobile-search-form').attr('action', 'https://act.ucsd.edu/directory/search');
-      			$('input[data-id="inputSearch"]').attr('id', 'entry').attr('name', 'entry');
-      			$('input[data-id="inputSearchMobile"]').attr('id', 'entry').attr('name', 'entry');
-      		}
-      	}
-      	
+  function setSearchValue(searchString) {
+    $('input[data-id="inputSearch"]').val(searchString);
+    $('input[data-id="inputSearchMobile"]').val(searchString);
+  }
+
+
+        function setSearch(searchType) {
+          if (searchType == 'web') {
+            $('.search-form').attr('action', '/search/index.html');
+            $('.mobile-search-form').attr('action', '/search/index.html');
+            $('input[data-id="inputSearch"]').attr('id', 'q').attr('name', 'search-term');
+            $('input[data-id="inputSearchMobile"]').attr('id', 'q').attr('name', 'search-term');
+
+          } else if (searchType == 'directory') {
+            $('.search-form').attr('action', 'https://act.ucsd.edu/directory/search');
+            $('.mobile-search-form').attr('action', 'https://act.ucsd.edu/directory/search');
+            $('input[data-id="inputSearch"]').attr('id', 'entry').attr('name', 'entry');
+            $('input[data-id="inputSearchMobile"]').attr('id', 'entry').attr('name', 'entry');
+          }
+        }
+        
         $(function(){
             $('#searchUCSD').click(function() {
                 $("form").attr('action', '/search/index.html');
@@ -630,66 +630,66 @@ $(function() {
             }
         });
 
-      	function submitForm(e) {
+        function submitForm(e) {
             if (window.location.pathname === '/search/index.html') {
                   formSubmitFunction(e);
             } else {
-      		var term = $('input[data-id="inputSearch"]').val();
+          var term = $('input[data-id="inputSearch"]').val();
 
-      		if (term == "" && $('input[data-id="inputSearch"]')[2] !== undefined) {
-      			if (!$('input[data-id="inputSearch"]')[2].classList.contains('hidden') && $.trim($('input[data-id="inputSearch"]')[2].value) !== "") {
-          			$('input[data-id="inputSearch"]')[2].value = $('input[data-id="inputSearch"]')[2].value;
-          			//$('input[data-id="inputSearch"]')[2].setAttribute('name', 'search-term');
-          			$('.search-form').submit();
-          		}
+          if (term == "" && $('input[data-id="inputSearch"]')[2] !== undefined) {
+            if (!$('input[data-id="inputSearch"]')[2].classList.contains('hidden') && $.trim($('input[data-id="inputSearch"]')[2].value) !== "") {
+                $('input[data-id="inputSearch"]')[2].value = $('input[data-id="inputSearch"]')[2].value;
+                //$('input[data-id="inputSearch"]')[2].setAttribute('name', 'search-term');
+                $('.search-form').submit();
+              }
 
-      		} else if (term == "" && $('input[data-id="inputSearch"]')[1] !== undefined) {
-      			if (!$('input[data-id="inputSearch"]')[1].classList.contains('hidden') && $.trim($('input[data-id="inputSearch"]')[1].value) !== "") {
-          			$('input[data-id="inputSearch"]')[1].value = $('input[data-id="inputSearch"]')[1].value;
-          			//$('input[data-id="inputSearch"]')[1].setAttribute('name', 'search-term');
-          			$('.search-form').submit();
-          		}
+          } else if (term == "" && $('input[data-id="inputSearch"]')[1] !== undefined) {
+            if (!$('input[data-id="inputSearch"]')[1].classList.contains('hidden') && $.trim($('input[data-id="inputSearch"]')[1].value) !== "") {
+                $('input[data-id="inputSearch"]')[1].value = $('input[data-id="inputSearch"]')[1].value;
+                //$('input[data-id="inputSearch"]')[1].setAttribute('name', 'search-term');
+                $('.search-form').submit();
+              }
 
-      		} else {
-      			if (!$('input[data-id="inputSearch"]').hasClass('hidden') && $.trim($('input[data-id="inputSearch"]').val()) !== "") {
-          			$('input[data-id="inputSearch"]')[0].value = $('input[data-id="inputSearch"]')[0].value;
-          			//$('input[data-id="inputSearch"]')[0].setAttribute('name', 'entry');
-          			$('.search-form').submit();
-          		}
-      		}
+          } else {
+            if (!$('input[data-id="inputSearch"]').hasClass('hidden') && $.trim($('input[data-id="inputSearch"]').val()) !== "") {
+                $('input[data-id="inputSearch"]')[0].value = $('input[data-id="inputSearch"]')[0].value;
+                //$('input[data-id="inputSearch"]')[0].setAttribute('name', 'entry');
+                $('.search-form').submit();
+              }
+          }
               }
 
 
-      	}
+        }
 
-      	function submitMobileForm() {
-      		var term = $('input[data-id="inputSearchMobile"]').val();
+        function submitMobileForm() {
+          var term = $('input[data-id="inputSearchMobile"]').val();
 
-      		if (term == "" && $('input[data-id="inputSearchMobile"]')[1] !== undefined) {
-      			if (!$('input[data-id="inputSearchMobile"]')[1].classList.contains('hidden') && $.trim($('input[data-id="inputSearchMobile"]')[1].value) !== "") {
-          			$('input[data-id="inputSearchMobile"]')[1].value = $('input[data-id="inputSearchMobile"]')[1].value;
-          			$('input[data-id="inputSearchMobile"]')[1].setAttribute('name', 'search-term');
-          			$('.mobile-search-form').submit();
-          		}
-      		} else {
-      			if (!$('input[data-id="inputSearchMobile"]').hasClass('hidden') && $.trim($('input[data-id="inputSearchMobile"]').val()) !== "") {
-          			$('input[data-id="inputSearchMobile"]')[0].value = $('input[data-id="inputSearchMobile"]')[0].value;
-          			$('input[data-id="inputSearchMobile"]')[0].setAttribute('name', 'search-term');
-          			$('.mobile-search-form').submit();
-          		}
-      		}
+          if (term == "" && $('input[data-id="inputSearchMobile"]')[1] !== undefined) {
+            if (!$('input[data-id="inputSearchMobile"]')[1].classList.contains('hidden') && $.trim($('input[data-id="inputSearchMobile"]')[1].value) !== "") {
+                $('input[data-id="inputSearchMobile"]')[1].value = $('input[data-id="inputSearchMobile"]')[1].value;
+                $('input[data-id="inputSearchMobile"]')[1].setAttribute('name', 'search-term');
+                $('.mobile-search-form').submit();
+              }
+          } else {
+            if (!$('input[data-id="inputSearchMobile"]').hasClass('hidden') && $.trim($('input[data-id="inputSearchMobile"]').val()) !== "") {
+                $('input[data-id="inputSearchMobile"]')[0].value = $('input[data-id="inputSearchMobile"]')[0].value;
+                $('input[data-id="inputSearchMobile"]')[0].setAttribute('name', 'search-term');
+                $('.mobile-search-form').submit();
+              }
+          }
 
-      	}
+        }
 
-      	$('.mobile-search-icon').each(function(a) {
-      		$(a).on('click', function() {
-          		submitMobileForm();
-          	});
-      	});
+        $('.mobile-search-icon').each(function(a) {
+          $(a).on('click', function() {
+              submitMobileForm();
+            });
+        });
 
-      	$($('.mobile-search-icon')[0]).on('click', function() {
-      		submitMobileForm();
-      	});
+        $($('.mobile-search-icon')[0]).on('click', function() {
+          submitMobileForm();
+        });
 
 
 

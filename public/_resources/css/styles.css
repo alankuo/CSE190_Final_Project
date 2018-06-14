@@ -1795,6 +1795,63 @@ section.jumbotron-hero {
     background-size: cover
 }
 
+.jumbotron-hero.jumbotron-academics {
+    background-image: url("../img/bg_academic.jpg");
+    background-position-x: 35%
+}
+
+.jumbotron-hero .panel {
+    background: rgba(0,106,150,0.85);
+    border: none
+}
+
+.jumbotron-hero .panel.academic-degrees .panel-body {
+    padding: 1em
+}
+
+.jumbotron-hero .panel .panel-body button,.jumbotron-hero .panel .panel-body form {
+    margin-top: 1em;
+    margin-bottom: 0
+}
+
+.jumbotron-hero .panel .panel-body h6 {
+    margin-bottom: 0.25em
+}
+
+.jumbotron-hero .panel .panel-body ul {
+    margin-bottom: 1.5em
+}
+
+.panel.academic-degrees .btn-primary {
+    background-color: #1a385a
+}
+
+.panel .search-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center
+}
+
+.panel .search-icon img:hover {
+    opacity: 0.7;
+    transition: all 0.3s
+}
+
+.panel .search-icon img {
+    transition: all 0.3s
+}
+
+.panel .btn-primary:hover,.panel .btn-primary:focus {
+    background-color: #102339;
+    transition: all 0.3s
+}
+
 .navbar-search .radio-inline.radio-active {
     color: #006A96
 }
@@ -2046,6 +2103,340 @@ section.jumbotron-hero {
 
 .campaign-nontradition h2 span {
     color: #d6e1f1
+}
+
+.jumbotron-excellence {
+    background-image: url("../img/bg_yellow_lines.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover
+}
+
+.jumbotron-excellence .thumbnail {
+    color: #fff;
+    background: url("../img/thumb_arts.jpg") center top no-repeat;
+    background-size: cover;
+    min-height: 175px;
+    border: none
+}
+
+.jumbotron-excellence .thumbnail .thumbnail-heading {
+    width: 15em;
+    line-height: 1.1;
+    padding: 0 1em;
+    margin-top: 0em
+}
+
+.jumbotron-excellence .rollover {
+    background-color: #fff
+}
+
+.jumbotron-excellence .rollover .thumbnail:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out
+}
+
+.jumbotron-excellence .thumbnail.excellence-arts {
+    background-image: url("../img/academics/thumb_arts.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-bio {
+    background-image: url("../img/academics/thumb_bio.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-eng {
+    background-image: url("../img/academics/thumb_eng.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-global {
+    background-image: url("../img/academics/thumb_global.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-med {
+    background-image: url("../img/academics/thumb_med.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-ocean {
+    background-image: url("../img/academics/thumb_ocean.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-rady {
+    background-image: url("../img/academics/thumb_rady.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-science {
+    background-image: url("../img/academics/thumb_science.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-skaggs {
+    background-image: url("../img/academics/thumb_skaggs.jpg")
+}
+
+.jumbotron-excellence .thumbnail.excellence-social {
+    background-image: url("../img/academics/thumb_social.jpg")
+}
+
+.jumbotron-calendar {
+    background-image: url("../img/bg_academic_calendar.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.jumbotron-calendar .calendar-heading {
+    color: #fff;
+    margin-bottom: 2em
+}
+
+.jumbotron-calendar .catalog-img-wrap a:hover {
+    text-decoration: none
+}
+
+.jumbotron-calendar .catalog-img-wrap {
+    padding-right: 0
+}
+
+.jumbotron-calendar .catalog-img-wrap h3 {
+    margin-top: 0.3em
+}
+
+.jumbotron-calendar .catalog-img {
+    background: url("../img/course_catalog.jpg") left top no-repeat;
+    background-size: cover;
+    min-height: 23em;
+    padding: 1em;
+    color: #fff
+}
+
+.jumbotron-calendar .catalog-img img {
+    position: relative;
+    top: 13.5em
+}
+
+.jumbotron-calendar .catalog-text {
+    padding: 1em
+}
+
+.jumbotron-calendar .calendar-text {
+    padding: 1em
+}
+
+.jumbotron-calendar .date-link {
+    border-bottom: 2px #00C6D7 solid;
+    line-height: 2.5em;
+    padding-bottom: 0.35em;
+    text-transform: uppercase;
+    font-family: 'BrixSansBold';
+    margin-bottom: 0
+}
+
+.jumbotron-calendar .panel-bottom-link {
+    margin-top: 0.5em
+}
+
+.jumbotron-calendar .date-link:hover,.jumbotron-calendar .date-link:focus {
+    text-decoration: none
+}
+
+span.twitter-typeahead .tt-menu,span.twitter-typeahead .tt-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box
+}
+
+span.twitter-typeahead .tt-suggestion {
+    display: block;
+    padding: 3px 12px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap
+}
+
+span.twitter-typeahead .tt-suggestion.tt-cursor,span.twitter-typeahead .tt-suggestion:hover,span.twitter-typeahead .tt-suggestion:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #337ab7
+}
+
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+span.twitter-typeahead {
+    width: 100%
+}
+
+.input-group span.twitter-typeahead {
+    display: block !important;
+    height: 34px
+}
+
+.input-group span.twitter-typeahead .tt-menu,.input-group span.twitter-typeahead .tt-dropdown-menu {
+    top: 32px !important
+}
+
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+    border-radius: 0
+}
+
+.input-group span.twitter-typeahead:first-child .form-control {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.input-group span.twitter-typeahead:last-child .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.input-group.input-group-sm span.twitter-typeahead {
+    height: 30px
+}
+
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+    top: 30px !important
+}
+
+.input-group.input-group-lg span.twitter-typeahead {
+    height: 46px
+}
+
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+    top: 46px !important
+}
+
+.jumbotron-schools {
+    background-image: url("../img/bg_academic_schools.jpg")
+}
+
+.jumbotron-schools {
+    background-image: url("../img/bg_academic_schools.jpg")
+}
+
+.jumbotron-schools .schools-grid {
+    margin-top: 2em
+}
+
+.jumbotron-schools .schools-grid .no-gutter {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.jumbotron-schools .caption p,.jumbotron-schools .caption .btn {
+    display: block
+}
+
+.jumbotron-schools .caption .btn {
+    margin: 0 auto
+}
+
+.jumbotron-schools .schools-grid .thumbnail {
+    background: url("../img/academics/grid_marshall.jpg") center top no-repeat;
+    background-size: cover;
+    background-image: none;
+    min-height: 350px;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 1.75em
+}
+
+.jumbotron-schools .thumbnail.thumb-marshall {
+    background-color: #ab2328
+}
+
+.jumbotron-schools .thumbnail.thumb-marshall .btn {
+    background-color: #811a1e
+}
+
+.jumbotron-schools .thumbnail.thumb-muir {
+    background-color: #115740
+}
+
+.jumbotron-schools .thumbnail.thumb-muir .btn {
+    background-color: #092c21
+}
+
+.jumbotron-schools .thumbnail.thumb-revelle {
+    background-color: #003087
+}
+
+.jumbotron-schools .thumbnail.thumb-revelle .btn {
+    background-color: #001e54
+}
+
+.jumbotron-schools .thumbnail.thumb-roosevelt {
+    background-color: #5e8ab4
+}
+
+.jumbotron-schools .thumbnail.thumb-roosevelt .btn {
+    background-color: #477098
+}
+
+.jumbotron-schools .thumbnail.thumb-sixth {
+    background-color: #008c95
+}
+
+.jumbotron-schools .thumbnail.thumb-sixth .btn {
+    background-color: #005c62
+}
+
+.jumbotron-schools .thumbnail.thumb-warren {
+    background-color: #862633
+}
+
+.jumbotron-schools .thumbnail.thumb-warren .btn {
+    background-color: #5e1b24
+}
+
+.jumbotron-schools .thumbnail .caption {
+    text-align: center;
+    color: #fff;
+    min-width: 230px
+}
+
+.jumbotron-schools .thumbnail .caption h3 {
+    font-size: 2.375em
+}
+
+.jumbotron-schools .thumbnail .school-logo {
+    width: 46px;
+    margin: 0 auto
 }
 
 .jumbotron-callout-sm {

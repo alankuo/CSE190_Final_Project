@@ -2064,10 +2064,6 @@ section.jumbotron-hero {
     background-size: cover
 }
 
-.jumbotron-white {
-    background-image: url("../img/bg_yellow_lines_sm_right.jpg")
-}
-
 .jumbotron-gray,.side-image-white {
     color: #484949
 }
@@ -2088,10 +2084,6 @@ section.jumbotron-hero {
     margin: 1.5em 0em 2em
 }
 
-.jumbotron-white.jumbotron-callout-sm {
-    background-image: url("../img/bg_yellow_lines_xs_right.jpg")
-}
-
 .campaign-mod {
     background: #82a9d2;
     background-image: none !important
@@ -2103,340 +2095,6 @@ section.jumbotron-hero {
 
 .campaign-nontradition h2 span {
     color: #d6e1f1
-}
-
-.jumbotron-excellence {
-    background-image: url("../img/bg_yellow_lines.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover
-}
-
-.jumbotron-excellence .thumbnail {
-    color: #fff;
-    background: url("../img/thumb_arts.jpg") center top no-repeat;
-    background-size: cover;
-    min-height: 175px;
-    border: none
-}
-
-.jumbotron-excellence .thumbnail .thumbnail-heading {
-    width: 15em;
-    line-height: 1.1;
-    padding: 0 1em;
-    margin-top: 0em
-}
-
-.jumbotron-excellence .rollover {
-    background-color: #fff
-}
-
-.jumbotron-excellence .rollover .thumbnail:hover {
-    opacity: 0.5;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out
-}
-
-.jumbotron-excellence .thumbnail.excellence-arts {
-    background-image: url("../img/academics/thumb_arts.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-bio {
-    background-image: url("../img/academics/thumb_bio.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-eng {
-    background-image: url("../img/academics/thumb_eng.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-global {
-    background-image: url("../img/academics/thumb_global.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-med {
-    background-image: url("../img/academics/thumb_med.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-ocean {
-    background-image: url("../img/academics/thumb_ocean.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-rady {
-    background-image: url("../img/academics/thumb_rady.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-science {
-    background-image: url("../img/academics/thumb_science.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-skaggs {
-    background-image: url("../img/academics/thumb_skaggs.jpg")
-}
-
-.jumbotron-excellence .thumbnail.excellence-social {
-    background-image: url("../img/academics/thumb_social.jpg")
-}
-
-.jumbotron-calendar {
-    background-image: url("../img/bg_academic_calendar.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
-.jumbotron-calendar .calendar-heading {
-    color: #fff;
-    margin-bottom: 2em
-}
-
-.jumbotron-calendar .catalog-img-wrap a:hover {
-    text-decoration: none
-}
-
-.jumbotron-calendar .catalog-img-wrap {
-    padding-right: 0
-}
-
-.jumbotron-calendar .catalog-img-wrap h3 {
-    margin-top: 0.3em
-}
-
-.jumbotron-calendar .catalog-img {
-    background: url("../img/course_catalog.jpg") left top no-repeat;
-    background-size: cover;
-    min-height: 23em;
-    padding: 1em;
-    color: #fff
-}
-
-.jumbotron-calendar .catalog-img img {
-    position: relative;
-    top: 13.5em
-}
-
-.jumbotron-calendar .catalog-text {
-    padding: 1em
-}
-
-.jumbotron-calendar .calendar-text {
-    padding: 1em
-}
-
-.jumbotron-calendar .date-link {
-    border-bottom: 2px #00C6D7 solid;
-    line-height: 2.5em;
-    padding-bottom: 0.35em;
-    text-transform: uppercase;
-    font-family: 'BrixSansBold';
-    margin-bottom: 0
-}
-
-.jumbotron-calendar .panel-bottom-link {
-    margin-top: 0.5em
-}
-
-.jumbotron-calendar .date-link:hover,.jumbotron-calendar .date-link:focus {
-    text-decoration: none
-}
-
-span.twitter-typeahead .tt-menu,span.twitter-typeahead .tt-dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 100%;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    list-style: none;
-    font-size: 16px;
-    text-align: left;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 0px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    background-clip: padding-box
-}
-
-span.twitter-typeahead .tt-suggestion {
-    display: block;
-    padding: 3px 12px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.42857143;
-    color: #333333;
-    white-space: nowrap
-}
-
-span.twitter-typeahead .tt-suggestion.tt-cursor,span.twitter-typeahead .tt-suggestion:hover,span.twitter-typeahead .tt-suggestion:focus {
-    color: #ffffff;
-    text-decoration: none;
-    outline: 0;
-    background-color: #337ab7
-}
-
-.input-group.input-group-lg span.twitter-typeahead .form-control {
-    height: 46px;
-    padding: 10px 16px;
-    font-size: 16px;
-    line-height: 1.3333333;
-    border-radius: 6px
-}
-
-.input-group.input-group-sm span.twitter-typeahead .form-control {
-    height: 30px;
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
-}
-
-span.twitter-typeahead {
-    width: 100%
-}
-
-.input-group span.twitter-typeahead {
-    display: block !important;
-    height: 34px
-}
-
-.input-group span.twitter-typeahead .tt-menu,.input-group span.twitter-typeahead .tt-dropdown-menu {
-    top: 32px !important
-}
-
-.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
-    border-radius: 0
-}
-
-.input-group span.twitter-typeahead:first-child .form-control {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0
-}
-
-.input-group span.twitter-typeahead:last-child .form-control {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px
-}
-
-.input-group.input-group-sm span.twitter-typeahead {
-    height: 30px
-}
-
-.input-group.input-group-sm span.twitter-typeahead .tt-menu,.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
-    top: 30px !important
-}
-
-.input-group.input-group-lg span.twitter-typeahead {
-    height: 46px
-}
-
-.input-group.input-group-lg span.twitter-typeahead .tt-menu,.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
-    top: 46px !important
-}
-
-.jumbotron-schools {
-    background-image: url("../img/bg_academic_schools.jpg")
-}
-
-.jumbotron-schools {
-    background-image: url("../img/bg_academic_schools.jpg")
-}
-
-.jumbotron-schools .schools-grid {
-    margin-top: 2em
-}
-
-.jumbotron-schools .schools-grid .no-gutter {
-    padding-left: 15px;
-    padding-right: 15px
-}
-
-.jumbotron-schools .caption p,.jumbotron-schools .caption .btn {
-    display: block
-}
-
-.jumbotron-schools .caption .btn {
-    margin: 0 auto
-}
-
-.jumbotron-schools .schools-grid .thumbnail {
-    background: url("../img/academics/grid_marshall.jpg") center top no-repeat;
-    background-size: cover;
-    background-image: none;
-    min-height: 350px;
-    border: none;
-    margin-bottom: 0;
-    padding-top: 1.75em
-}
-
-.jumbotron-schools .thumbnail.thumb-marshall {
-    background-color: #ab2328
-}
-
-.jumbotron-schools .thumbnail.thumb-marshall .btn {
-    background-color: #811a1e
-}
-
-.jumbotron-schools .thumbnail.thumb-muir {
-    background-color: #115740
-}
-
-.jumbotron-schools .thumbnail.thumb-muir .btn {
-    background-color: #092c21
-}
-
-.jumbotron-schools .thumbnail.thumb-revelle {
-    background-color: #003087
-}
-
-.jumbotron-schools .thumbnail.thumb-revelle .btn {
-    background-color: #001e54
-}
-
-.jumbotron-schools .thumbnail.thumb-roosevelt {
-    background-color: #5e8ab4
-}
-
-.jumbotron-schools .thumbnail.thumb-roosevelt .btn {
-    background-color: #477098
-}
-
-.jumbotron-schools .thumbnail.thumb-sixth {
-    background-color: #008c95
-}
-
-.jumbotron-schools .thumbnail.thumb-sixth .btn {
-    background-color: #005c62
-}
-
-.jumbotron-schools .thumbnail.thumb-warren {
-    background-color: #862633
-}
-
-.jumbotron-schools .thumbnail.thumb-warren .btn {
-    background-color: #5e1b24
-}
-
-.jumbotron-schools .thumbnail .caption {
-    text-align: center;
-    color: #fff;
-    min-width: 230px
-}
-
-.jumbotron-schools .thumbnail .caption h3 {
-    font-size: 2.375em
-}
-
-.jumbotron-schools .thumbnail .school-logo {
-    width: 46px;
-    margin: 0 auto
 }
 
 .jumbotron-callout-sm {
@@ -2507,287 +2165,8 @@ span.twitter-typeahead {
     padding-left: 0.5em
 }
 
-.jumbotron-event-multiple-alt {
-    background-image: url("../img/bg_events_cheerleaders.jpg")
-}
-
 .jumbotron-campus-life {
     background-image: url("../img/bg_campus_life_hero.jpg")
-}
-
-.jumbotron-tab {
-    background: url("../img/bg_tab_module.jpg") no-repeat center top
-}
-
-.jumbotron-tab h2 {
-    margin-bottom: 2em
-}
-
-.tab-content {
-    background-color: #fff;
-    color: #484949;
-    padding: 1em 2em 3em;
-    min-height: 400px
-}
-
-.tab-content h3,.tab-content h4 {
-    margin-bottom: 1em
-}
-
-.tab-content h4 {
-    text-transform: none
-}
-
-.nav-tabs>li,.tab-module .panel-heading {
-    margin: 0;
-    background: #fff;
-    background: url("../img/tab_learn.jpg");
-    height: 200px;
-    background-size: cover;
-    background-color: rgba(255,255,255,0.85);
-    background-blend-mode: color;
-    -webkit-box-shadow: inset 5px 0px 5px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: inset 5px 0px 5px 0px rgba(0,0,0,0.2);
-    box-shadow: inset 5px 0px 5px 0px rgba(0,0,0,0.2);
-    transition: all 0.5s;
-    transition: background-blend-mode 0.2s
-}
-
-.nav-tabs>li.live,.tab-module .live .panel-heading {
-    background: url("../img/tab_live.jpg");
-    height: 200px;
-    background-size: cover;
-    background-color: rgba(255,255,255,0.85);
-    background-blend-mode: color
-}
-
-.nav-tabs>li.work,.tab-module .work .panel-heading {
-    background: url("../img/tab_work.jpg");
-    height: 200px;
-    background-size: cover;
-    background-color: rgba(255,255,255,0.85);
-    background-blend-mode: color
-}
-
-.tab-module .learn .panel-heading,.tab-module .live .panel-heading,.tab-module .work .panel-heading {
-    background-blend-mode: normal;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none
-}
-
-.nav.nav-tabs>li.active {
-    background-blend-mode: normal;
-    opacity: 1;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    transition: all 0.5s
-}
-
-.nav.nav-tabs>li:hover {
-    background-color: rgba(0,106,150,0.75);
-    background-blend-mode: multiply;
-    transition: background-blend-mode 0.2s
-}
-
-.nav.nav-tabs>li:hover h1 {
-    color: #fff
-}
-
-.nav.nav-tabs>li.active:hover {
-    background-color: transparent;
-    background-blend-mode: normal
-}
-
-.nav-tabs>li.active {
-    border: none
-}
-
-.nav-tabs>li.active h1 {
-    color: #fff
-}
-
-.nav-tabs>li>a {
-    margin: 0;
-    padding: 0;
-    border: none;
-    display: block;
-    min-height: 100%;
-    position: relative;
-    top: 0
-}
-
-.nav-tabs>li.active>a {
-    margin: 0;
-    padding: 0;
-    border: none;
-    position: relative;
-    top: 0
-}
-
-.nav-tabs>li a h1 {
-    padding-top: 0.6em;
-    min-width: 4em;
-    color: #b9b9b9
-}
-
-.tab-module .accordion-toggle h1 {
-    padding-top: 2.25em;
-    color: #b9b9b9
-}
-
-.nav.nav-tabs>li>a:hover {
-    background: transparent;
-    color: #fff
-}
-
-.tab-module .nav-tabs-justified>.active>a,.tab-module .nav-tabs.nav-justified>.active>a,.tab-module .nav-tabs.nav-justified>.active>a,.tab-module .nav-tabs-justified>.active>a:hover,.tab-module .nav-tabs.nav-justified>.active>a:hover,.tab-module .nav-tabs.nav-justified>.active>a:hover,.tab-module .nav-tabs-justified>.active>a:focus,.tab-module .nav-tabs.nav-justified>.active>a:focus,.tab-module .nav-tabs.nav-justified>.active>a:focus {
-    border: none
-}
-
-.nav-tabs-justified>.active>a,.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a,.nav-tabs-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:focus {
-    border: none
-}
-
-.nav-tabs-justified>li>a,.nav-tabs.nav-justified>li>a,.nav-tabs.nav-justified>li>a {
-    border: none
-}
-
-.nav.nav-tabs>li.active a {
-    background: transparent;
-    color: #fff
-}
-
-.tab-video-thumb {
-    min-width: 100%
-}
-
-.tab-video {
-    display: none
-}
-
-.tab-module .panel.panel-default {
-    margin: 2em 1em
-}
-
-.tab-module .panel.panel-default .panel-body {
-    padding: 1.5em
-}
-
-.tab-module .panel.panel-default .panel-body h4 {
-    text-transform: none
-}
-
-.tab-module .panel.panel-default .panel-heading {
-    padding: 0;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%)
-}
-
-.tab-module .panel.panel-default .panel-title {
-    text-align: center
-}
-
-.tab-module .panel.panel-default h1 {
-    color: #fff
-}
-
-.testimonial-intro {
-    background: url("../img/testimonial_intro.png") no-repeat;
-    color: #fff;
-    padding: 3.5em 3em;
-    position: relative;
-    left: 1em;
-    z-index: 1000;
-    margin: 0;
-    min-height: 350px;
-    top: -0.3em
-}
-
-.testimonial-intro.testimonial-intro-mobile {
-    background: url("../img/testimonial_intro_mobile.jpg") no-repeat;
-    padding: 3.5em 3em;
-    position: relative;
-    left: 0em;
-    z-index: 1000;
-    margin: 0;
-    min-height: 0px;
-    top: 0;
-    background-size: cover
-}
-
-.testimonial {
-    background-size: cover;
-    height: 340px;
-    background-repeat: no-repeat
-}
-
-.testimonial .btn {
-    outline: none
-}
-
-.testimonial a {
-    display: block;
-    cursor: pointer;
-    height: 340px
-}
-
-.testimonial-wrap .popover {
-    left: 0em !important;
-    height: 340px;
-    top: 0em !important;
-    padding: 3.5em 2em;
-    z-index: 999
-}
-
-.testimonial-wrap .popover blockquote {
-    font-size: 1.15em;
-    border: none;
-    padding-left: 0
-}
-
-.testimonial-wrap .popover blockquote em {
-    font-family: 'BrixSansRegular-Italic'
-}
-
-.testimonial-wrap .popover p {
-    font-size: 0.9em;
-    border: none
-}
-
-.testimonial-thumb {
-    background-size: cover;
-    height: 200px;
-    background-position: center
-}
-
-.testimonial.testimonial-one,.testimonial-thumb-one {
-    background: url("../img/testimonial_one.jpg") center no-repeat
-}
-
-.testimonial.testimonial-two,.testimonial-thumb-two {
-    background: url("../img/testimonial_two.jpg") center no-repeat
-}
-
-.testimonial.testimonial-three,.testimonial-thumb-three {
-    background: url("../img/testimonial_three.jpg") center no-repeat
-}
-
-.testimonial.testimonial-four,.testimonial-thumb-four {
-    background: url("../img/testimonial_four.jpg") center no-repeat
-}
-
-.jumbotron-detail.jumbotron-detail-terms {
-    background-image: url("../img/bg_life_hero.jpg")
-}
-
-.page-detail .main p,.page-detail .main ul {
-    margin-bottom: 1.5em
-}
-
-.page-detail .main ul li {
-    margin-bottom: 0.75em
 }
 
 .footer-address-bar,.footer-divisions {
@@ -2814,11 +2193,6 @@ span.twitter-typeahead {
 
 .footer-brand {
     max-width: 130px
-}
-
-.footer-brand span {
-    color: transparent;
-    text-decoration: none
 }
 
 .footer-address-bar {
@@ -2849,25 +2223,8 @@ span.twitter-typeahead {
     margin-top: 2em
 }
 
-.footer-links .text-link {
-    border: none
-}
-
 .footer-social-links img {
     max-width: 45px
-}
-
-.footer-links-blue {
-    background-color: #006A96
-}
-
-.footer-divisions .divisions-link {
-    color: #fff;
-    text-decoration: none
-}
-
-.footer-divisions .divisions-link span {
-    font-size: 1.2em
 }
 
 .footer-divisions .dropup .dropdown-menu {
@@ -2887,21 +2244,6 @@ span.twitter-typeahead {
     color: #fff
 }
 
-.footer-divisions .dropup .dropdown-menu .text-link-secondary {
-    border-bottom: none;
-    padding: 0.35em;
-    margin: 0.35em;
-    font-size: 0.95em
-}
-
-.footer-divisions .dropup .dropdown-menu .text-link-secondary:hover {
-    background-color: #fff
-}
-
-.footer-divisions .dropup .dropdown-menu>li>a {
-    white-space: normal
-}
-
 .footer-copyright {
     background: #00C6D7;
     color: #fff;
@@ -2916,25 +2258,6 @@ span.twitter-typeahead {
 @media (min-width: 426px) {
     .footer-address-bar .footer-brand img {
         padding:2em 0
-    }
-
-    .jump-links .btn {
-        clear: none;
-        float: none
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .support-campaign h1 {
-        margin-left:1.25em
-    }
-
-    .support-campaign p {
-        margin-left: 4.5em
-    }
-
-    .support-campaign a.btn {
-        margin-left: 5.35em !important
     }
 }
 
@@ -2967,15 +2290,6 @@ span.twitter-typeahead {
     .jumbotron-support {
         background-image: url("../img/bg_support_campaign.jpg");
         background-position: top
-    }
-
-    .jumbotron-support .container p {
-        width: 23em
-    }
-
-    .grid-overflow {
-        margin-right: -100%;
-        float: left
     }
 
     .jumbotron {
@@ -3019,37 +2333,13 @@ span.twitter-typeahead {
         color: #fff
     }
 
-    .navbar-default .navbar-nav>a {
-        text-align: center;
-        line-height: 1
-    }
-
-    .navbar-default .navbar-nav>a {
-        min-width: 0px;
-        padding: 1.5em 0.4em
-    }
-
     .jumbotron-hero {
         padding-top: 102px;
         padding-bottom: 102px
     }
 
-    .jumbotron-hero.jumbotron-detail {
-        padding-top: 35px;
-        padding-bottom: 35px
-    }
-
     .panel .panel-body {
         padding: 1em 2em
-    }
-
-    .jumbotron-schools .schools-grid .no-gutter {
-        padding-left: 0px;
-        padding-right: 0px
-    }
-
-    .jumbotron-hero .panel .panel-body ul {
-        margin-bottom: 1em
     }
 
     .jumbotron .text-indent {
@@ -3064,18 +2354,6 @@ span.twitter-typeahead {
         min-height: 400px
     }
 
-    .jumbotron-excellence {
-        padding-bottom: 75px
-    }
-
-    .jumbotron-calendar .catalog-text {
-        padding: 1em 1em 1em 0
-    }
-
-    .jumbotron-calendar .panel {
-        min-height: 23em
-    }
-
     .main {
         margin-top: 4.6em
     }
@@ -3085,21 +2363,12 @@ span.twitter-typeahead {
         padding: 0.5em 1em
     }
 
-    .event-single .date-wrap .date-dash {
-        font-size: 1.5em;
-        font-weight: bold
-    }
-
     .event-single .event .event-title {
         padding-top: 0.25em
     }
 
     .panel.panel-primary .panel-body {
         padding: 1.5em 3.5em
-    }
-
-    .jumbotron-hero .panel.academic-degrees .panel-body {
-        padding: 1em 1.4em
     }
 
     .campus-life-text h2 {
@@ -3152,47 +2421,6 @@ span.twitter-typeahead {
         padding: 0
     }
 
-    .jumbotron.jumbotron-callout-sm .callout-title {
-        margin-top: 0.3em
-    }
-
-    .popover {
-        top: 2em !important;
-        padding: 2em
-    }
-
-    a.anchor {
-        top: -158px
-    }
-
-    #accordion .accordion-list-row {
-        margin: 0
-    }
-
-    #accordion .accordion-odd .panel-body .accordion-list-row {
-        margin-top: -2em
-    }
-
-    #accordion .accordion-list-wrap {
-        padding: 0
-    }
-
-    .jumbotron-affiliate {
-        background-image: url("../img/bg_affiliate.jpg")
-    }
-
-    .jumbotron-affiliate .affiliate-text {
-        background: none
-    }
-
-    .jumbotron-affiliate .image-container-mobile .background-image-holder {
-        background: none
-    }
-
-    .jumbotron-affiliate .side-image-content {
-        margin-top: 3em
-    }
-
     .jumbotron-news .view-all-link {
         margin-top: 1em
     }
@@ -3203,10 +2431,6 @@ span.twitter-typeahead {
 
     .jumbotron-news .panel.panel-default .panel-heading {
         min-height: 135px
-    }
-
-    .nav.nav-tabs>li>a>img {
-        min-width: 200px
     }
 
     .jumbotron-map .list-inline {
@@ -3255,10 +2479,6 @@ span.twitter-typeahead {
         margin-top: 8.8em
     }
 
-    .announcement+.main {
-        padding-top: 8.2em
-    }
-
     .nav-wrap .container,.header-wrap .container {
         width: 100%
     }
@@ -3281,29 +2501,6 @@ span.twitter-typeahead {
         margin-right: 0
     }
 
-    .search-close {
-        left: 0;
-        background: none;
-        position: absolute;
-        z-index: 10
-    }
-
-    .search-close:hover,.search-close:active {
-        background: none
-    }
-
-    .search-close img {
-        position: absolute;
-        position: absolute;
-        left: 0.8em;
-        width: 15px;
-        top: 1em
-    }
-
-    .navbar-search #inputSearch {
-        padding-left: 2.5em
-    }
-
     .btn-apply.hidden-tablet {
         display: none
     }
@@ -3316,42 +2513,6 @@ span.twitter-typeahead {
     nav.navbar.navbar-default .header-wrap {
         -webkit-transition: all 0.0s ease;
         transition: all 0.0s ease
-    }
-
-    nav.navbar.shrink {
-        min-height: 35px
-    }
-
-    nav.navbar.shrink.navbar-default .navbar-brand {
-        padding: 19.5px 15px 18.5px 13px
-    }
-
-    nav.navbar.shrink.navbar-default .navbar-brand span img {
-        width: 200px;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease
-    }
-
-    nav.navbar.shrink.navbar-default .header-wrap {
-        padding-bottom: 30px;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease
-    }
-
-    nav.navbar.shrink.navbar-default .navbar-form {
-        margin-top: 0px;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease
-    }
-
-    .open>.dropdown-menu.dropdown-search {
-        display: none
-    }
-
-    .navbar-search #inputSearch {
-        opacity: 0;
-        width: 0;
-        width: 220px !important
     }
 
     .navbar-search .input-group {
@@ -3392,88 +2553,13 @@ span.twitter-typeahead {
         width: 19em
     }
 
-    .navbar-default .navbar-nav>a {
-        line-height: 1
-    }
-
-    .navbar-default .navbar-nav>a {
-        min-width: 120px
-    }
-
     .panel.panel-primary .panel-body {
         min-height: 0px;
         padding: 1em 2.5em
     }
 
-    .jumbotron-callout-three .panel.panel-primary .panel-body {
-        padding: 1.5em 2em
-    }
-
-    .jumbotron-calendar .panel {
-        min-height: 17em
-    }
-
-    .jumbotron-calendar .catalog-img {
-        min-height: 17em
-    }
-
-    .jumbotron-calendar .catalog-img img {
-        position: relative;
-        top: 8em
-    }
-
     .campus-life-text {
         margin-left: 10%
-    }
-
-    .book-tour-links {
-        padding: 3.5em 0 0 7em;
-        margin: 0
-    }
-
-    .book-tour-links ul>li {
-        padding: 2em 2em 2em 0
-    }
-
-    .jumbotron.jumbotron-callout-sm .text-link {
-        padding-top: 0.75em;
-        display: inline-block
-    }
-
-    .support-campaign h1 {
-        margin-left: 1.25em
-    }
-
-    .support-campaign h1 span {
-        margin-left: -1.5em
-    }
-
-    .support-campaign p {
-        margin-left: 5.15em
-    }
-
-    .support-campaign a.btn {
-        margin-left: 6.2em
-    }
-
-    .panel.panel-secondary .panel-body {
-        padding: 3em 5em
-    }
-
-    .nav.nav-tabs>li>a>img {
-        min-width: 300px
-    }
-
-    .jumbotron-quote-slider-sm .text-indent {
-        padding-top: 5.25em
-    }
-
-    .jumbotron-tab .nav-tabs>li a h1 {
-        top: -1.1em
-    }
-
-    .footer-address-bar .footer-address .footer-brand img {
-        padding: 1.9em 0
     }
 
     .footer-links {
@@ -3504,125 +2590,11 @@ span.twitter-typeahead {
     .jumbotron h1,.jumbotron .h1 {
         font-size: 4em
     }
-
-    .jumbotron-schools .thumbnail .caption {
-        min-width: 300px
-    }
-
-    .jumbotron-schools .thumbnail {
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 1s
-    }
-
-    .jumbotron-schools .thumbnail.thumb-marshall {
-        background-image: url("../img/academics/grid_marshall.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-muir {
-        background-image: url("../img/academics/grid_muir.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-revelle {
-        background-image: url("../img/academics/grid_revelle.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-roosevelt {
-        background-image: url("../img/academics/grid_roosevelt.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-sixth {
-        background-image: url("../img/academics/grid_sixth.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-warren {
-        background-image: url("../img/academics/grid_warren.jpg")
-    }
-
-    .jumbotron-schools .thumbnail.thumb-marshall.hover {
-        background-image: url("../img/academics/bg_spacer_marshall.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.thumb-muir.hover {
-        background-image: url("../img/academics/bg_spacer_muir.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.thumb-revelle.hover {
-        background-image: url("../img/academics/bg_spacer_revelle.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.thumb-roosevelt.hover {
-        background-image: url("../img/academics/bg_spacer_roosevelt.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.thumb-sixth.hover {
-        background-image: url("../img/academics/bg_spacer_sixth.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.thumb-warren.hover.hover {
-        background-image: url("../img/academics/bg_spacer_warren.gif");
-        transition: background-image 0.5s ease-in-out
-    }
-
-    .jumbotron-schools .caption p,.jumbotron-schools .caption .btn {
-        display: none;
-        opacity: 0
-    }
-
-    .jumbotron-schools .thumbnail .caption {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%)
-    }
-
-    .jumbotron-schools .thumbnail.hover .caption p,.jumbotron-schools .thumbnail.hover .caption .btn {
-        display: block;
-        transition: background-image 2s ease-in-out
-    }
-
-    .jumbotron-schools .thumbnail.hover {
-        transition: background-image 2s ease-in-out
-    }
-
-    .jumbotron-social-feeds>.container {
-        padding: 0
-    }
-
-    .social-slider .panel.panel-default {
-        margin: 1em 0.5em
-    }
 }
 
 @media (min-width: 1200px) {
-    .btn-apply.hidden-tablet {
-        display:inline-block
-    }
-
-    .announcement+.main {
-        padding-top: 6em
-    }
-
     .panel.panel-primary .panel-body {
         min-height: 0
-    }
-
-    .jumbotron-hero .panel .panel-body h6 {
-        margin-bottom: 0.8em
-    }
-
-    .panel.academic-degrees ul li:last-child {
-        margin-left: 0em
-    }
-
-    .book-tour-links {
-        padding: 3.5em 0 3em 10em
     }
 
     .nav-wrap .container,.header-wrap .container {
@@ -3652,40 +2624,8 @@ span.twitter-typeahead {
         text-align: left
     }
 
-    .navbar-default .navbar-nav>a {
-        line-height: 1
-    }
-
-    .navbar-default .navbar-nav>a {
-        min-width: 170px
-    }
-
-    .navbar-search #inputSearch {
-        width: 300px !important
-    }
-
     .event-single .text-link,.event-single .event-link-lg {
         padding-top: 0.75em
-    }
-
-    .jumbotron-excellence .academics-wrap .last {
-        margin-left: 33.334%
-    }
-
-    .jumbotron-schools .schools-grid .thumbnail {
-        min-height: 400px
-    }
-
-    .jumbotron-schools .thumbnail .school-logo {
-        width: 92px
-    }
-
-    .jumbotron-schools .thumbnail .caption h3 {
-        font-size: 3.375em
-    }
-
-    .jumbotron-schools .thumbnail .caption p.btn {
-        font-size: 15px
     }
 
     .footer-address-bar .footer-address {
@@ -3695,51 +2635,5 @@ span.twitter-typeahead {
     .footer-divisions .dropup .dropdown-menu {
         padding: 4em 0;
         min-height: 0
-    }
-
-    .footer-divisions .dropup .dropdown-menu .text-link-secondary {
-        padding: 0.5em;
-        margin: 0.5em
-    }
-
-    #accordion .text-link {
-        font-size: 1em
-    }
-
-    #accordion .accordion-odd .panel-body .accordion-list-row {
-        margin-top: -1.5em
-    }
-
-    #accordion .accordion-list-row {
-        font-size: 1em
-    }
-
-    #accordion .accordion-list-row ul>li {
-        padding-bottom: 1em
-    }
-
-    #accordion.panel-group .panel+.panel {
-        margin-top: 3em
-    }
-
-    #accordion .panel-heading {
-        padding: 3em 2em 0.5em
-    }
-
-    #accordion .accordion-list-wrap {
-        padding: 0 15px
-    }
-
-    .tab-content {
-        padding: 2em 4em
-    }
-
-    .social-slider .slick-next {
-        right: -40px
-    }
-
-    .testimonial-intro {
-        height: 350px;
-        width: 428px
     }
 }

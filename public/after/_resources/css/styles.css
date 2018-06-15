@@ -125,7 +125,7 @@ html {
 }
 
 body {
-    font-family: "BrixSansRegular",Helvetica,Arial,sans-serif;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.44;
     color: #484949;
@@ -186,7 +186,7 @@ hr {
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family: "BrixSansBold",Helvetica,Arial,sans-serif;
+    font-family: "Cambria",Helvetica,Arial,sans-serif;
     font-weight: bold;
     line-height: 0.917;
     color: inherit
@@ -1276,7 +1276,7 @@ h1 br,h2 br {
 }
 
 b,strong {
-    font-family: 'BrixSansBold'
+    font-family: 'Cambria'
 }
 
 .top-nav>li {
@@ -1483,7 +1483,7 @@ b,strong {
 }
 
 .navbar-default .navbar-nav.small-nav .navbar-btn ul li a {
-    font-family: 'BrixSansRegular'
+    font-family: 'Cambria'
 }
 
 .nav .open>a,.nav .open>a:hover,.nav .open>a:focus {
@@ -1589,7 +1589,7 @@ b,strong {
     padding: 0.5em 1em;
     display: block;
     color: #fff;
-    font-family: "BrixSansRegular"
+    font-family: "Cambria"
 }
 
 .main-nav .list-unstyled li a:hover {
@@ -1622,14 +1622,16 @@ b,strong {
 
 .text-link,.pop-over {
     text-transform: uppercase;
-    font-family: "BrixSansBold", Helvetica, Arial, sans-serif;
+    font-family: "Cambria", Helvetica, Arial, sans-serif;
+    font-weight: bold;
     border-bottom: 1px #006A96 solid;
     letter-spacing: 0.08em
 }
 
 .text-link-secondary {
     text-transform: uppercase;
-    font-family: "BrixSansBold", Helvetica, Arial, sans-serif;
+    font-family: "Cambria", Helvetica, Arial, sans-serif;
+    font-weight: bold;
     border-bottom: 1px #fff solid;
     letter-spacing: 0.08em
 }
@@ -1674,12 +1676,13 @@ b,strong {
 .btn-default {
     background-color: #FFCD00;
     color: #484949;
-    font-family: 'BrixSansBold';
+    font-family: 'Cambria';
+    font-weight: bold;
     transition: all 0.3s
 }
 
 .btn-primary {
-    font-family: 'BrixSansBold'
+    font-family: 'Cambria'
 }
 
 .btn-default:hover,.btn-default:active {
@@ -1699,7 +1702,8 @@ section.jumbotron-hero {
 }
 
 .navbar-default {
-    font-family: "BrixSansBold", Helvetica, Arial, sans-serif
+    font-family: "Cambria", Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 .navbar-brand {
@@ -1828,7 +1832,8 @@ section.jumbotron-hero {
 
 .event-single .date-wrap p span {
     font-size: 2em;
-    font-family: 'BrixSansBold';
+    font-family: 'Cambria';
+    font-weight: bold;
     line-height: 0.85
 }
 
@@ -1874,17 +1879,19 @@ section.jumbotron-hero {
 
 .quote-slider h4 {
     font-size: 1.8em;
-    font-family: 'BrixSansBold-Italic'
+    font-family: 'Cambria';
+    font-style: italic;
 }
 
 .quote-slider p {
     margin: 0;
-    font-family: 'BrixSansRegular-Italic'
+    font-family: 'Cambria';
+    font-style: italic;
 }
 
 .quote-slider p.citation {
     text-transform: uppercase;
-    font-family: 'BrixSansRegular';
+    font-family: 'Cambria';
     font-size: 0.8em;
     margin-top: 0.5em
 }
@@ -1981,7 +1988,7 @@ section.jumbotron-hero {
     color: #fff;
     text-transform: none;
     border-color: #fff;
-    font-family: 'BrixSansRegular'
+    font-family: 'Cambria'
 }
 
 .jumbotron-event-multiple .events-wrap {

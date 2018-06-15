@@ -1638,50 +1638,6 @@ b,strong {
     text-decoration: none
 }
 
-.carousel-indicators {
-    margin-left: -12%;
-    text-align: right
-}
-
-.carousel-indicators li,.carousel-indicators .active {
-    color: #747678;
-    border-color: #747678;
-    border-width: 2px;
-    padding: 0.25em;
-    margin-right: .25em
-}
-
-.carousel-indicators .active {
-    background-color: transparent;
-    border: 3px solid #484949
-}
-
-.book-tour-links {
-    margin-top: -1em;
-    margin-bottom: 2em
-}
-
-.book-tour-links ul>li {
-    padding: 1em 1em 1em 0;
-    text-align: left
-}
-
-.book-tour-links ul>li a {
-    text-transform: capitalize;
-    color: #484949;
-    border-color: #484949;
-    font-size: 1.22em
-}
-
-.book-tour-links ul>li a:hover,.book-tour-links .text-link-hover-arrow {
-    color: #484949
-}
-
-#book-tour .carousel-inner>.item {
-    height: 250px;
-    padding-top: 0.25em
-}
-
 .text-link-hover-arrow {
     visibility: hidden;
     font-size: 16px;
@@ -1793,58 +1749,6 @@ section.jumbotron-hero {
 
 .jumbotron-hero,.jumbotron-schools,.jumbotron-callout-sm {
     background-size: cover
-}
-
-.jumbotron-hero.jumbotron-academics {
-    background-image: url("../img/bg_academic.jpg");
-    background-position-x: 35%
-}
-
-.jumbotron-hero .panel {
-    background: rgba(0,106,150,0.85);
-    border: none
-}
-
-.jumbotron-hero .panel.academic-degrees .panel-body {
-    padding: 1em
-}
-
-.jumbotron-hero .panel .panel-body button,.jumbotron-hero .panel .panel-body form {
-    margin-top: 1em;
-    margin-bottom: 0
-}
-
-.jumbotron-hero .panel .panel-body h6 {
-    margin-bottom: 0.25em
-}
-
-.jumbotron-hero .panel .panel-body ul {
-    margin-bottom: 1.5em
-}
-
-.panel.academic-degrees .btn-primary {
-    background-color: #1a385a
-}
-
-.panel .search-icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    display: block;
-    width: 49px;
-    height: 49px;
-    line-height: 49px;
-    text-align: center
-}
-
-.panel .search-icon img:hover {
-    opacity: 0.7;
-    transition: all 0.3s
-}
-
-.panel .search-icon img {
-    transition: all 0.3s
 }
 
 .panel .btn-primary:hover,.panel .btn-primary:focus {
@@ -2100,10 +2004,6 @@ section.jumbotron-hero {
 .jumbotron-callout-sm {
     background-image: url("../img/bg_academic_extension.jpg");
     background-position: center top
-}
-
-.jumbotron-hero.jumbotron-life-at-uscd {
-    background-image: url("../img/bg_life_hero.jpg")
 }
 
 .jumbotron-news h2 {
@@ -2500,11 +2400,7 @@ section.jumbotron-hero {
     .navbar-right {
         margin-right: 0
     }
-
-    .btn-apply.hidden-tablet {
-        display: none
-    }
-
+    
     nav.navbar,nav.navbar.navbar-default .navbar-brand,nav.navbar.navbar-default .navbar-brand span img,nav.navbar.navbar-default .navbar-form {
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease

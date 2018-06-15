@@ -1,5 +1,4 @@
 const staticCacheName = 'cse-190-final';
-
 const cacheFiles = [
   "_images/about/c20.jpg",
     "_images/about/cf.jpg",

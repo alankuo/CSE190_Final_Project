@@ -1,3 +1,6 @@
+.vid-poster {
+    background: url("../vid/vid-poster.jpg");background-image: url("../vid/vid-poster.jpg") !important;
+}
 .screen-reader {
 	border: 0;
 	clip: rect(0 0 0 0);

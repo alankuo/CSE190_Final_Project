@@ -301,76 +301,18 @@ $(function() {
             $( ".alert-warning" ).hide();
           });
 
-
-
-
-
-
-
-
-
-          // expand mega nav
-          // $(".main-nav").hover(function(){
-          //   $(this).toggleClass("is-hover");
-          // });
-
-          // var primaryNav = $('.main-nav');
-
-          // primaryNav.hover(function(){
-
-
-          // setTimeout(function() {
-          //    primaryNav.toggleClass("is-hover");
-          // }, 500);
-
-          // });
-
-          // $(".main-nav").hover(
-          //     function () {
-          //         var $this = $(this);
-
-          //         $this.addClass("hover");
-          //         setTimeout(function() {
-          //             $this.addClass("is-hover");
-          //         }, 00); // 2000 is in mil sec eq to 2 sec.
-          //     },
-          //     function () {
-          //         $(this).removeClass("hover is-hover");
-          //     }
-          // );
-
-
-          // highlight column when list item is hovered
-          // $(".main-nav .list-unstyled li").hover(function(){
-          //   // $(this).parents(".nav-group").toggleClass("bg-blue");
-
-          //   $(this).parents(".nav-group").children("a").toggleClass("bg-blue");
-          // });
-
           // highlight column under main nav item when hovered and highlight column when list item is hovered
           $(".nav-group").hover(function(){
             $(this).toggleClass("bg-blue");
             $(this).children("a").toggleClass("bg-blue");
           });
 
-          // // make hover state active on parent anchor
-          //  $('.block-menu-block.block ul.menu li ul').hover (
-          //   function () {
-          //     $(this).parent('.expanded').children('a').addClass("dd-active");
-          //   },
-          //   function () {
-          //     $(this).parent('.expanded').children('a').removeClass("dd-active");
-          //   }
-          // );
+          
 
 
         $(".small-nav .navbar-btn .dropdown-toggle").click(function(){
           $(".small-nav .navbar-btn .dropdown-toggle").not(this).removeClass("open");
           $(this).attr("aria-expanded", "true").toggleClass("open");
-          // if ($(this).parents(".navbar-btn").hasClass("open")) {
-          //     $(this).toggleClass("open");
-          // }
-
         });
         
 
@@ -391,11 +333,6 @@ $(function() {
           $(this).children().toggleClass("close-icon");
 
         }
-        // ,
-        // function(){
-        //   $(this).children().attr("src", "img/icon_search.png");
-        // }
-
         );
 
       // mobile search dropdown prevent dropdown from closing on radio click
@@ -428,30 +365,7 @@ $(function() {
             $("#accordion .accordion-toggle a span").not(this).text("+");
         });
 
-       // fade in accordion body text when opening accordion
-       // $("#accordion .accordion-toggle a span").click(function(){
-       //    if ($(".panel-collapse").hasClass("in")) {
-       //        alert("closed");
-       //        $(this).children(".list-unstyled").animate({
-       //          opacity: 0,
-       //        }, 0, function() {
-
-       //        });
-
-       //    } else {
-       //      alert("open");
-       //      console.log($(this).children(".list-unstyled"));
-       //      $(this).children(".list-unstyled").animate({
-       //          opacity: 0,
-       //        }, 2000, function() {
-       //            $(".list-unstyled").animate({
-       //              opacity: 1
-       //            });
-       //        });
-       //    }
-       //  });
-
-
+       
        // bootstrap popover
 
        $(function(){

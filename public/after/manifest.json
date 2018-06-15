@@ -1,0 +1,13 @@
+{
+    "short_name": "UCSD",
+    "name": "UC San Diego Improved Homepage",
+    "start_url": "index.html",
+    "background_color": "#e6e9ef",
+    "theme_color": "#e6e9ef",
+    "display": "standalone",
+    "icons": [{
+      "src": "_resources/img/ucsd180x180.png",
+      "type": "image/jpg",
+      "sizes": "180x180"
+    }]
+  }

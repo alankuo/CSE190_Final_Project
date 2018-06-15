@@ -2,12 +2,20 @@
     "short_name": "UCSD",
     "name": "UC San Diego Improved Homepage",
     "start_url": "index.html",
-    "background_color": "#e6e9ef",
-    "theme_color": "#e6e9ef",
+    "background_color": "#ffffff",
+    "theme_color": "#036996",
     "display": "standalone",
     "icons": [{
       "src": "_resources/img/ucsd180x180.png",
-      "type": "image/jpg",
+      "type": "image/png",
       "sizes": "180x180"
+    },{
+      "src": "_resources/img/ucsd192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },{
+      "src": "_resources/img/ucsd512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }]
   }
